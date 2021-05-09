@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Tagger.jnlp">
+  <information>
+    <title>Tagger</title>
+    <vendor>Park</vendor>
+    <description>PosTagging</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PosTagging.jar" size="226454" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="Pos_tagger.Main"  name="PosTagging" />
+  <update check="background"/>
+</jnlp>
